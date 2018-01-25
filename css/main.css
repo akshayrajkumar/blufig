@@ -1,0 +1,444 @@
+body{
+    background: #fff;
+    color: black;
+}
+
+   
+#sample1 {
+  height: 600px;;
+  width: 100%;
+  background: url(img/1.jpg) no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+#sample1:after {
+  height: 100em;
+  width: 200%;
+  content: " ";
+  background: rgba(255,255,255,0.6);
+  position: absolute;
+  right: -20px;
+  transform: rotate(53.25deg);
+}
+    
+    #sample2 {
+  height: 600px;
+  width: 100%;
+  background: url(img/2.jpg) no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+#sample2:after {
+  height:150%;
+  width: 300%;
+  content: " ";
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  right: -20px;
+  transform: rotate(-35deg);
+}
+    
+    #sample3 {
+  height: 600px;;
+  width: 100%;
+  background: url(img/3.jpg) no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+#sample3:after {
+  height: 2700px;
+  width: 155%;
+  content: " ";
+  background: rgba(255,255,255,0.6);
+  position: absolute;
+  right: -20px;
+  transform: rotate(126.75deg);
+}
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Footer css*/
+
+
+
+/*header*/
+#navbar-primary .navbar-nav { 
+  width: 100%;
+  color: black !important;
+  text-align: center;}
+
+
+ #navbar-primary .navbar-nav > li {
+    display: inline-block;
+    float: none;
+    color: black !important;
+
+                   }
+     #navbar-primary .navbar-nav > a {
+      padding-left: 30px;
+      padding-right: 30px;
+      color: black !important;
+
+    }
+
+#navbar-primary .navbar-nav > .active{
+ border-bottom: 2px solid black;    
+ color: black;
+}
+
+#navbar-primary .navbar-nav > .active > a,
+#navbar-primary .navbar-nav > .active > a:hover,
+#navbar-primary .navbar-nav > .active > a:focus {
+ border-bottom: 2px solid black;
+ color: black;
+}
+
+/***********************/
+/***********************/
+/******SECTION-1********/
+/*********CSS***********/
+/***********************/
+
+
+#text1{
+  padding-top: 20em;
+  padding-right: 2em;
+}
+
+#orc{
+    color: white;
+    padding-top: 2em;
+    font-family: "rokkitt-bold";
+    padding-left: 1.5em;
+    font-size:45px !important; 
+    font-weight: bolder;
+}
+
+#syn{
+    font-size: 35px;
+    text-align: right;
+    color: black;
+    font-family: "rokkitt-regular";
+    margin-top: -1.75em;
+    margin-left:9em;
+    margin-right: -2em;
+    padding-left: 5px;
+
+}
+
+#total1{
+     position: absolute;
+     z-index:100;
+     font-family: "rokkitt-regular";
+}
+
+
+#btnExp{
+    margin-left: 32em;
+    border-radius: 0px;
+    color: white;
+    background: blue;
+    font-family: "rokkitt-regular";
+    margin-bottom: 8em;
+
+
+}
+
+/***********************/
+/***********************/
+/******SECTION-2********/
+/*********CSS***********/
+/***********************/
+
+
+#text2a{
+    color: white;
+    font-size: 20px;
+    padding-left: 4em;
+    padding-right: 2em;
+    padding-top: 2em;
+    font-family: "rokkitt-regular";
+    letter-spacing: 2px;
+    text-align: justify;
+    position: absolute;
+    z-index:100;
+}
+
+#leftTilt{
+    font-size: 20px;
+    color: darkblue;
+    padding-top: 12em;
+    padding-left: 4em;
+    margin-top: 5em;
+    font-family: "rokkitt-regular";
+    position: absolute;
+    z-index:100;
+}
+
+#rightTilt{
+    font-size: 20px;
+    color: white;
+    margin-left: 30em;
+    margin-top: 6em;
+    padding-left: 10em;
+    padding-bottom: 5em;
+    position: absolute;
+    z-index:100;
+    font-family: "rokkitt-regular";
+    
+}
+
+#btnexp2{
+    border-radius: 0px;
+    color: darkblue;
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 15px;
+    font-family: "rokkitt-regular";
+    margin-top: 1em;
+    margin-left: 4em;
+}
+
+#btnexp3{
+    border-radius: 0px;
+    color: white;
+    background: blue;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: bolder;
+    font-family: "rokkitt-regular";
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 2em;
+}
+
+#mga{
+    word-spacing: 1em;
+    text-align: justify;
+    font-family: "rokkitt-regular";
+}
+#rcm{
+    word-spacing: 10px;;
+    text-align: justify;
+    font-family: "rokkitt-regular";
+}
+
+
+/***********************/
+/***********************/
+/******SECTION-3********/
+/*********CSS***********/
+/***********************/
+
+
+#sec3{
+    padding-top: 15em;
+    padding-left: 4em;
+/*    font-family: "rokkitt-bold";*/
+}
+
+#perform{
+    color: blue;
+    font-weight: bolder;
+/*    font-family: "rokkitt-regular";*/
+}
+
+#exdion{
+    color: black;
+    word-spacing: 1em;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 9.5em;
+/*    font-family: "rokkitt-regular";*/
+}
+
+#perform, #exdion{
+    position: absolute;
+    z-index: 100;   
+}
+
+#btnexp4{
+    border-radius: 0px;
+    background: blue;
+    color: white;
+    margin-top: 22.5em !important;
+    margin-left: 2em;
+    position: relative;
+/*    font-family: "rokkitt-regular";*/
+    z-index: 100;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+/*---------------------*/
+/*---------------------*/
+/*------EXPERTIZE------*/
+/*---------CSS---------*/
+/*---------------------*/
+
+#exper{
+    margin-bottom: 50px;
+    color: blueviolet;
+    font-family: "rokkitt-regular";
+    font-weight: bolder;
+}
+
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.well{
+    border: 1px solid #333;
+    background-color: #333 !important; 
+    color: white;
+    width: 250px;;
+    height: 250px;
+    font-family: "rokkitt-regular";
+    padding-top: 80px !important;
+    text-align: center;
+    margin-left: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+/*#####################*/
+/*#####################*/
+/*####QUICK--ACCESS####*/
+/*########CSS##########*/
+/*#####################*/
+
+
+#quick{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+
+#q1,#q2,#q3{
+    padding-left: 8em;
+    line-height: 2em;
+    font-weight: 100;
+    
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^*/
+        
+     
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+
+.social {
+ background: rgba(0, 0, 0, 0.4);
+ border-radius: 100%;
+ height: 25px;
+ width: 25px;
+ padding-top:  5px !important;
+ text-align: center;
+ font-size: 15px !important;
+ border: 0px solid #666;
+ color: #fff;
+ 
+    
+ box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+     -webkit-transform: scale(0.8);
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+        
+            
+ 
+ #social-ln:hover {
+     color: #0077B5;
+     background: #fff;
+ }
+ 
+ #social-tw:hover {
+     color: #4099FF;
+     background: #fff;
+ }
+ 
+ #social-in:hover {
+     color: #d34836;
+     background: #fff;
+ }
+
+ #social-vi:hover {
+     color: #4ebbff;
+     background: #fff;
+ }
+ 
+ #social-yt:hover {
+     color: #cc181e;
+     background: #fff;
+ }
+
+
+/*====================================*/
+.btn{
+  
+  border-radius: 0px;      
+  position: static;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0px;
+}
+ 
+#btn1{
+
+ float: right;
+ margin-right: 60px;
+ color: white;
+}
+
+#btn2{
+ float: right;
+ margin-right: 10px;
+ color: white;
+ background: #666;
+
+    
+}
+/*----------*/
+
+#quick{
+    margin-bottom: 250px;
+    color: black;
+    
+}
+
+#ak{
+    color: blueviolet;
+}
+
+a{
+    color: black;
+}
+
+.ic{
+    background: (255,255,255,0.6) !important;
+}
+
+#copy{
+    color: #666;
+}

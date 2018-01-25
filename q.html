@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    
+    
+    <style>
+    
+    
+    #unique_features{
+    background-color: #fff;
+    z-index: 30;
+}
+
+#unique_features > div{
+    height: 400px;
+    padding: 0px;
+    color: #fff;
+}
+
+#unique_features .content{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#unique_features .content .description{
+    font-size: 20px;
+    margin: 30px !important;
+    font-family: Roboto Condensed;
+    font-weight: bold;
+}
+
+#unique_features .content .title{
+    font-family: Patua One;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#unique_features > div .overlay{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.3s;
+}
+
+#unique_features > div .overlay:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+#unique_features > div .overlay > div{
+    transition: all 0.3s;
+}
+
+#unique_features > div .overlay > div:hover{
+    transform: scale(1.03);
+}
+
+
+
+
+    
+    </style>
+</head>
+    <body>
+    <div class="container">
+         <div class="row">
+            <div class="col-sm-4">
+            <h3>QUICK ACCESS</h3> 
+            <a href="#">Contact</a><br>
+                <a href="#">Request FREE CONSULTATION</a><br>
+                <a href="#">About</a><br>
+                <a href="#">Insights and News</a>
+            </div>
+             
+               <div class="col-sm-4">
+            <h3>TOP SERVICES</h3> 
+            <a href="#">Healthcare Revenue Cycle Mgmt</a><br>
+                <a href="#">Insurance Policy Cycle Mgmt</a><br>
+                <a href="#">Analytics</a><br>
+                <a href="#">Consulting</a>
+            </div>
+             
+               <div class="col-sm-4">
+            <h3>PROCESS</h3> 
+            <a href="#">Migration Methodology</a><br>
+                <a href="#">Business Excellence</a><br>
+                <a href="#">Cloud Fist</a>
+                
+            </div>
+             
+         
+         </div>
+    
+        
+    </div>
+        
+        
+        
+        
+         <div id = "unique_features">
+        <div class = "col-md-3 gc">
+            <div class = "overlay">
+                <div class = "content">
+                    <p class = "title">Google Classroom</p>
+                    <p class = "description">Submit your assignments and home works through the integrated Google Classroom.</p>
+                </div>
+            </div>
+        </div>
+        <div class = "col-md-3 sport">
+            <div class = "overlay">
+                <div class = "content">
+                    <p class = "title">Sports</p>
+                    <p class = "description">Are you a sports person? Come join one of the finest sports team in Coimbatore.</p>
+                </div>
+            </div>
+        </div>
+        <div class = "col-md-3 infrastructure">
+            <div class = "overlay">
+                <div class = "content">
+                    <p class = "title">Infrastructure</p>
+                    <p class = "description">The best-in-class infrastructure designed by the best architects in India.</p>
+                </div>
+            </div>
+        </div>
+        <div class = "col-md-3 smart">
+            <div class = "overlay">
+                <div class = "content">
+                    <p class = "title">Smart Classrooms</p>
+                    <p class = "description">Classrooms powered by smart boards to make learning more fun and interactive.</p>
+                </div>
+            </div>
+        </div>
+        <div style = "clear: both; height: 0;"></div>
+    </div>
+
+        
+        
+    </body>
+</html>
